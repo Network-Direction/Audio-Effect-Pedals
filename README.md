@@ -12,3 +12,9 @@ Pedals include:
 * Big Muff Pi
 * Boss BD2 Blues Driver (original and modified)
 * OpAmp Distortion pedal
+
+# KiCad Components
+Additional libraries for KiCad, for components that don't exist by default.
+
+# Stomp Breakout
+A small breakout board for the stomp switch, and parts that connect to it.
