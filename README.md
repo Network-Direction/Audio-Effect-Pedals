@@ -12,6 +12,7 @@ Pedals include:
 * Big Muff Pi
 * Boss BD2 Blues Driver (original and modified)
 * OpAmp Distortion pedal
+* Klon Centaur (Original)
 
 # KiCad Components
 Additional libraries for KiCad, for components that don't exist by default.
