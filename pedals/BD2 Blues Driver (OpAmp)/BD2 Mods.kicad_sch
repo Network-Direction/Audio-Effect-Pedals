@@ -6034,6 +6034,20 @@
 		)
 		(uuid "e2bb9ce9-b54a-4777-ae0e-538c6f2688cb")
 	)
+	(text "56nF is getting\nharder to come by\n\n47nF or 68nF might be\na suitable alternative"
+		(exclude_from_sim no)
+		(at 200.66 181.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 191 111 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e51d9c78-9980-4604-a120-4363d9b750bc")
+	)
 	(global_label "In"
 		(shape input)
 		(at 43.18 34.29 180)
