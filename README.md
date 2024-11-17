@@ -12,7 +12,7 @@ Pedals include:
 * Big Muff Pi
 * Boss BD2 Blues Driver (original and modified)
 * OpAmp Distortion pedal
-* Klon Centaur (Original)
+* Klon Centaur
 
 # Audio Theory
 Learn the basics of how sound works, at least as far as it relates to effects pedals.
