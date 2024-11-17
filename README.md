@@ -1,5 +1,5 @@
-# Guitar Pedal Resources
-Schematics and other resources for building guitar pedals.
+# Effects Pedal Resources
+Schematics and other resources for building effects pedals.
 
 Schematics are drawn in Kicad.
 
@@ -13,6 +13,11 @@ Pedals include:
 * Boss BD2 Blues Driver (original and modified)
 * OpAmp Distortion pedal
 * Klon Centaur (Original)
+
+# Audio Theory
+Learn the basics of how sound works, at least as far as it relates to effects pedals.
+
+See the Wiki page for more.
 
 # KiCad Components
 Additional libraries for KiCad, for components that don't exist by default.
