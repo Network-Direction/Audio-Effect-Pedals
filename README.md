@@ -11,11 +11,17 @@ Enclosure templates show how to drill an enclosure.
 
 
 # Pedals
-Pedals include:
+Distortion:
 * Big Muff Pi
 * Boss BD2 Blues Driver (original and modified)
 * OpAmp Distortion pedal
 * Klon Centaur
+* MXR Distortion
+
+Other:
+* Boss CE-2 Chorus
+* Boss PH-1r Phaser
+* MXR Dyna Comp
 
 </br></br>
 
