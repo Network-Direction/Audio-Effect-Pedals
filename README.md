@@ -17,6 +17,7 @@ Distortion:
 * OpAmp Distortion pedal
 * Klon Centaur
 * MXR Distortion
+* ProCo RAT
 
 </br></br>
 
