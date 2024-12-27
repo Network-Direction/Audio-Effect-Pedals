@@ -64,9 +64,11 @@ R6 together with C5 creates a low pass filter, which shunts frequencies over 159
 </br></br>
 ### Opamp
 
-The opamp provides two functions in this stage. One is as an input buffer, where a high impedance input signal is converted to a low impedance output signal. This part is very similar to many other pedal's input stages.
+The opamp provides three functions in this stage. One is as an input buffer, where a high impedance input signal is converted to a low impedance output signal. This part is very similar to many other pedal's input stages.
 
 The opamp also provides gain to the signal. boosting the signal affects how much clipping and distortion is applied to the signal later on.
+
+Finally, the opamp is part of an active high pass filter, for attenuating higher frequencies.
 
 
 </br></br>
@@ -90,6 +92,24 @@ What this means is, the opamp cannot effectively reproduce high frequencies (>5.
 
 </br></br>
 ### Filtering
+
+There are several areas in this stage that add extra filtering. For starters, there is a 100pF capacitor across the 100K potentiometer. The pot controls the gain of the opamp, but placing a capacitor here creates a low pass filter. This attenuates some of the high end before clipping takes place.
+
+When the potentiometer is at max, the filter will have the most effect, attenuating frequencies over 16KHz. This mellows out the distortion.
+
+Setting the potentiometer at minimal levels sets the frequency cutoff at levels above human hearing, so effectively this filter only comes into play with lots of distortion.
+
+![filters](https://github.com/user-attachments/assets/01fdcdd8-8262-4100-9921-a0ba7898b4bf)
+
+
+</br></br>
+There are also two RC networks in parallel, made of R8/C8 and R7/C9, connecting the inverting input to ground. This creates an _active high pass filter_.
+
+The **R7/C9** filter attenuates frequencies below ~1.5KHz, at a rate of 20dB per decade.
+
+The **R8/C8** filter attenuated frequencies below ~60Hz, at a rate of 40dB per decade, practically muting them.
+
+The effect of this is to mute bass notes before they are clipped, creating a frequency dependant distortion (the low end is less clipped).
 
 
 </br></br>
