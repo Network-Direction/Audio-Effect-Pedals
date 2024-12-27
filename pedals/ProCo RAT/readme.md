@@ -46,6 +46,23 @@ R2 and R3 form a voltage divider, to create the 4.5v for biasing. C3 is there to
 </br></br>
 ## Tone Control
 
+The tone control is a simple passive low pass filter, controlled by the 100K potentiometer. R10 is there to make sure there is always a minimum of 1.5K ohms in the LPF, even if the pot is turned all the way down.
+
+</br></br>
+> [!NOTE]
+> The original pedal used an Audio pot, not a linear pot, for tone control.
+
+![tone](https://github.com/user-attachments/assets/977a08a6-9c78-46b9-a917-bac0431aa36e)
+
+</br></br>
+The minimum cutoff frequency is 475Hz, and the maximum is 32KHz.
+
+This, along with other filtering in the circuit, creates a mid-boost.
+
+</br></br>
+> [!NOTE]
+> The clipping stage has a double RC network, which attenuates harmonics below 1.5KHz
+
 
 </br></br>
 ## Output
