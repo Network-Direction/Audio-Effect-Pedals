@@ -64,6 +64,29 @@ R6 together with C5 creates a low pass filter, which shunts frequencies over 159
 </br></br>
 ### Opamp
 
+The opamp provides two functions in this stage. One is as an input buffer, where a high impedance input signal is converted to a low impedance output signal. This part is very similar to many other pedal's input stages.
+
+The opamp also provides gain to the signal. boosting the signal affects how much clipping and distortion is applied to the signal later on.
+
+
+</br></br>
+> [!NOTE]
+> The original pedal used an LM308 opamp. They are obsolete, so this version uses an OP07CP. OP07DP would also be suitable.
+
+
+</br></br>
+This opamp is used in a slightly different way than opamps in other pedals. While it is still a low-noise opamp like the TL071, it is very different in terms of _slew rate_.
+
+As the input signal in continually changing (oscillating), the output of the opamp must also be continually changing. The speed at which it can react to these changes is called the _slew rate_. Normally, a fast slew rate is ideal, as the output of the opamp is a good representation of the input signal.
+
+The OP07CP has a low slew rate of about 0.3V/us (about 40x lower than the TL071). It is special though, as the _compensation capacitor_ (C6) can control the slew rate (the smaller the cap, the faster the slew rate).
+
+![op07cp](https://github.com/user-attachments/assets/8f4b9a64-64f0-43f2-827b-15304f9c27d2)
+
+
+</br></br>
+What this means is, the opamp cannot effectively reproduce high frequencies (>5.3KHz), as it can't oscilate the output signal fast enough. Once again, this is part of the RAT's tone, as it emphasises mid frequencies, and attenuates high and low frequencies.
+
 
 </br></br>
 ### Filtering
