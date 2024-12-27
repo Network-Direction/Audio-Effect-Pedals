@@ -157,4 +157,25 @@ This, along with other filtering in the circuit, creates a mid-boost.
 </br></br>
 ## Output
 
+The output stage is effectively a _voltage follower_, AKA a _unitary gain amplifier_ or buffer. This is based around a JFET in _common drain_ configuration. This does not amplify or modify the signal. Instead it takes a low impedance signal and converts it to a high impedance signal.
+
+There are two main achievements with this:
+1. The integrity of the signal is preserved (no tone lost)
+2. The tone stage is isolated from the volume, so they don't affect each other
+
+
+</br></br>
+> [!NOTE]
+> The original pedal used a 2N5458 JFET. This is obsolete, and replaced with a J201 in this version.
+
+</br></br>
+![output](https://github.com/user-attachments/assets/7017f78b-6554-4e67-a7b9-b77d68effffe)
+
+</br></br>
+As the JFET is a J201 in this version, there are some slight changes to the circuit to make it work. R11/R12 create a voltage divider to bias the JFET correctly. This also means that R12 is slightly larger than in the original circuit (where it was 1M).
+
+C12 filters out any DC that could feed back into the tone stage, and C13 removes any DC from the signal that has passed through the JFET.
+
+Finally there's a passive volume control, that dumps some of the signal to ground.
+
 
