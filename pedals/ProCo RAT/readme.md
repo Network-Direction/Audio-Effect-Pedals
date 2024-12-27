@@ -115,6 +115,23 @@ The effect of this is to mute bass notes before they are clipped, creating a fre
 </br></br>
 ### Clipping and Distortion
 
+There are two parts to distortion in this pedal. One is the gain created by the opamp, and the other is the clipping diodes.
+
+The gain of the opamp determines the amplitude of the output signal. The more gain from the opamp, the more of the signal gets sent to ground through the clipping diodes.
+
+Therefore, the higher the gain (controlled by the 100K potentiometer), the stronger the distortion.
+
+![clipping](https://github.com/user-attachments/assets/2bee0f52-bc85-4809-af1f-65718e56845b)
+
+
+</br></br>
+> [!NOTE]
+> The original pedal used 1N914 silicon diodes. For availability, they are replaced with the 1N4148 silicon diodes.
+
+
+</br></br>
+C10 and R9 are just there for safety. C10 is a coupling capacitor to remove DC biasing signal. R9 limits the current into the diodes and the next stages.
+
 
 </br></br>
 ## Tone Control
