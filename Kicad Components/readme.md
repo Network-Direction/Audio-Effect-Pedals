@@ -13,6 +13,9 @@ Footprints are used in PCB layouts. They have a **mode** file extension.
 # Instructions
 1. Download additional files
 2. Open the Kicad project
+3. Follow the instructions for each section below
+4. Restart Kicad
+
 
 </br></br>
 ## Symbols
@@ -24,6 +27,7 @@ To import symbols, we need to add the single symbol file.
 4. Select the **kicad_sym** file, and then click Open
 5. Click OK to close the symbol library manager
 
+
 </br></br>
 ## Footprints
 To add footprints, we import the footprint files.
@@ -33,3 +37,4 @@ To add footprints, we import the footprint files.
 3. An explorer window opens. Either browse to the downloaded files, or drag them in here
 4. Click the Select Folder button
 5. Click OK to close the footprint library manager
+
