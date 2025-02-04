@@ -27,3 +27,12 @@ Supplies 9v power to multiple pedals using USB-C as input.
 * Add a selector switch to allow negotiating different currents
 * Green LED to report that all is well
 * Per-output protection (schottky diode) for reverse voltage protection and voltage sag prevention
+
+
+</br></br>
+# Assembly
+
+Use the attached gerber files (gerbers.zip) to have the PCB created.
+
+You may also want to use the **SMT Assembly.zip** file to get a manufacturer such as JLCPCB to create the PCB and assemble the difficult components for you.
+
