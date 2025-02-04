@@ -4,7 +4,7 @@ Supplies 9v power to multiple pedals using USB-C as input.
 
 
 </br></br>
-## Version #1
+## Features
 
 * 4x 9v output
 * USB-C input, power only (no data)
@@ -14,7 +14,7 @@ Supplies 9v power to multiple pedals using USB-C as input.
 
 
 </br></br>
-### Notes
+## Notes
 
 * On the PCB, caps C7, C6, C9, and C5 need better spacing.
 * Use a USB socket that allows surface mount ground pins, or update footprint to use through hole for these
@@ -22,7 +22,7 @@ Supplies 9v power to multiple pedals using USB-C as input.
 
 
 </br></br>
-### Improvement Ideas
+## Improvement Ideas
 
 * Add a selector switch to allow negotiating different currents
 * Green LED to report that all is well
