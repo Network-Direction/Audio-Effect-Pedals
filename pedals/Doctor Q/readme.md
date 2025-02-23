@@ -11,7 +11,8 @@ There are several main modules to the pedal:
 1. Power
 2. Input Buffer
 3. Envelope Follower
-4. Voltage Controlled Filter (Wah Effect)
+4. Tone Selection
+5. Voltage Controlled Filter (Wah Effect)
 
 
 </br></br>
@@ -32,6 +33,16 @@ This is very common type of input buffer that biases the input to 4.5v, and prov
 
 </br></br>
 ## Envelope Follower
+
+
+</br></br>
+# Tone Selection
+
+The pedal is designed to work with electric guitars or bass guitars. A DPDT switch toggles between NORM or BASS mode.
+
+**NORM** mode sends the signal down a path that emphasises mid to mid-high frequencies. **BASS** modesends the signal down a path that emphases higher frequencies.
+
+This works by causing the signal to flow through difference RC networks. This is similar in concept to a tone control on any other pedal, except there are two fixed settings, rather than one or more potentiometers to create continuously variable frequencies.
 
 
 </br></br>
