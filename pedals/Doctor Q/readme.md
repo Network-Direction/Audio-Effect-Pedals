@@ -18,7 +18,9 @@ There are several main modules to the pedal:
 </br></br>
 ## Power
 
-The power module is extemely simple. There is no filtering, just raw 9 volt power supply.
+The power module provides an output of 9v and 4.5v.
+
+Interestingly, the 4.5v output is filtered with a 10uF capacitor, while the 9v output is not filtered.
 
 The dual op amp package has a 9v power supply, with a 47-ohm resistor. This is a current-limiting resistor which provides minimal protection for the IC.
 
