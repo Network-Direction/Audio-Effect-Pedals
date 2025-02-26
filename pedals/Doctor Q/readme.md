@@ -20,6 +20,8 @@ There are several main modules to the pedal:
 
 The power module provides an output of 9v and 4.5v.
 
+![image](https://github.com/user-attachments/assets/c46336f1-20e1-42ce-9300-556c898eba60)
+
 Interestingly, the 4.5v output is filtered with a 10uF capacitor, while the 9v output is not filtered.
 
 The dual op amp package has a 9v power supply, with a 47-ohm resistor. This is a current-limiting resistor which provides minimal protection for the IC.
@@ -32,9 +34,25 @@ This is an addition to the original schematic. This is required to match impedan
 
 This is very common type of input buffer that biases the input to 4.5v, and provides capacitors to remove the DC offset.
 
+![image](https://github.com/user-attachments/assets/d12a7a99-4f2f-41d2-a726-7456c95b488f)
+
+The signal has two paths after the input buffer:
+* The envelope follower
+* The filter/wah effect
+
+
 
 </br></br>
 ## Envelope Follower
+### Overview
+
+The purpose of the envelope follower, at least in this circuit, is to create a _Control Voltage_.
+
+The [_envelope_ ](https://github.com/Network-Direction/Audio-Effect-Pedals/blob/main/Audio%20Theory/4.%20Envelope.md) is, simply put, the level of a sound over time. Imagine it as a graph that describes the amplitude of a wave.
+
+The _envelope follower_ is the module that looks at the amplitude of the wave, and creates a voltage to describe it's level. If the amplitude goes up (the sound gets louder), then the envelope follower generates a larger voltage. If the amplitude goes down, then the output voltage goes down too.
+
+This output voltage is called the _control voltage_, or _CV_. This is used to control some other aspect of the circuit as a whole.
 
 
 </br></br>
