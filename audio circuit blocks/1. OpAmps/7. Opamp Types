@@ -10,18 +10,51 @@ However, it's good to know that there are three main ways an opamp can be constr
 
 </br></br>
 ## JFET Opamps
+### Advantages
+
+The biggest advantage of a JFET opamp is its **high input impedance**. This makes them particularly useful for applications like buffers, where we expect a high impedance input.
+
+JFETs are **low noise**. This is random fluctuations in voltage or current that happen within the transistor. JFET opamps are good in certain audio applications for this reason.
+
+
+</br></br>
+### Disadvantages
+
+
+</br></br>
+### Common Models
 
 eg, TL06x, TL07x, TL08x
 
 
 </br></br>
 ## BJT Opamps
+### Advantages
+
+
+</br></br>
+### Disadvantages
+
+
+</br></br>
+### Common Models
+
 
 eg, LM741, RC4558
 
 
 </br></br>
 # CMOS Opamps
+### Advantages
+
+
+</br></br>
+### Disadvantages
+
+
+</br></br>
+### Common Models
+
 
 
 </br></br>
