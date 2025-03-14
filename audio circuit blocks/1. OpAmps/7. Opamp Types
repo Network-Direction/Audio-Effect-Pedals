@@ -1,0 +1,30 @@
+# Types of Opamps
+
+An opamp is built using a lot of internal components such as transistors. When it comes to just using opamps, we don't generally need to know the details around what's inside the opamp package.
+
+However, it's good to know that there are three main ways an opamp can be constructed:
+* JFET transistor based
+* BJT transistor based
+* MOSFET transistor based (known as CMOS)
+
+
+</br></br>
+## JFET Opamps
+
+eg, TL06x, TL07x, TL08x
+
+
+</br></br>
+## BJT Opamps
+
+eg, LM741
+
+
+</br></br>
+# CMOS Opamps
+
+
+</br></br>
+# Phase Reversal
+
+
