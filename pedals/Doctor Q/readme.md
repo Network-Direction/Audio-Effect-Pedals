@@ -80,3 +80,5 @@ Doctor Quack Schematic - https://www.muzique.com/schem/doctor-q.gif
 
 Nurse Quacky - https://home-wrecker.com/nurse-quacky.html
 
+Dr. Quack guitar envelope filter pedal circuit - https://www.youtube.com/watch?v=M60e1PcbyfA
+
